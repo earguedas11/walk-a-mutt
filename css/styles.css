@@ -1,0 +1,97 @@
+body, h1, h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #442424;
+    font-weight: bold;
+}
+
+.fa {
+    color: #74a931;
+}
+
+i.fa.fa-heart {
+    color: #E1453D;
+}
+
+i.fa.fa-paw {
+   color: #442424;
+}
+
+i.fa.fa-search {
+    color: #F0940C;
+    font-size: 18px;
+}
+
+i.fa.fa-envelope {
+    font-size: 18px;
+}
+
+.hashtag {
+    color: #F0940C;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.orange-link {
+    color: #F0940C;
+}
+
+.orange-link:hover {
+    color: #74a931;  
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+ .btn-green {
+    background-color: #74a931;
+    
+      }
+ .btn-orange {
+    background-color: #F0940C;
+
+  }
+  .btn-red {
+    background-color: #E1453D;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h3 {
+        color: #fff
+}
+
+.carousel {
+    border: solid #ccc;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.list-unstyled a {
+    color: #777;
+  }
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.row-content {
+    padding: 50px 0px;
+    min-height: 200px;
+}
+
+.call-to-action.container-fluid, footer {
+    background-color: #f5f5f5;
+}
