@@ -12,3 +12,19 @@ $(function() {
         }
     });
 });
+
+//**Reserve and Login Modals**//
+$(function() {
+    $('#loginButton').click(function () {
+        $('#loginModal').modal('show');
+    });
+    $('#closeLoginModal').click(function () {
+        $('#loginModal').modal('hide');
+    });
+    $('#reserveButton').click(function () {
+        $('#reserveModal').modal('show');
+    });
+    $('#closeReserveModal').click(function () {
+        $('#reserveModal').modal('hide');
+    });
+});

@@ -42,26 +42,28 @@ i.fa.fa-envelope {
     color: #74a931;  
 }
 
-.btn {
-    border-radius: 50px;
-    padding: 10px 20px;
-    color: #fff;
+.btn-green {
+    background-color: #74a931;   
 }
 
- .btn-green {
-    background-color: #74a931;
-    
-      }
- .btn-orange {
+.pet-type-select {
+    background-color:#cccccc;   
+}
+
+.btn-orange {
     background-color: #F0940C;
+}
 
-  }
-  .btn-red {
+.btn-red {
     background-color: #E1453D;
-  }
+}
 
-  .carousel-caption {
+.carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.callout-icon a {
+    color: #777;  
 }
 
 .carousel-caption h3 {
@@ -81,10 +83,29 @@ i.fa.fa-envelope {
 
 .list-unstyled a {
     color: #777;
-  }
+}
+
+header.jumbotron {
+    margin-bottom: -2rem;
+}
 
 .jumbotron {
-    background-color: #fff;
+    background: url("/img/path.svg") no-repeat center center;  
+}
+
+.jumbotron, .reviews-container, .blog  {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+} 
+
+.reviews-container {
+    background: url("/img/path3.svg") no-repeat center center; 
+}
+
+.blog {
+    background: url("/img/path2.svg") no-repeat center center; 
 }
 
 .row-content {
@@ -92,6 +113,6 @@ i.fa.fa-envelope {
     min-height: 200px;
 }
 
-.call-to-action.container-fluid, footer {
+footer {
     background-color: #f5f5f5;
 }
