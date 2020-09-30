@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
-.fa {
+.fa, .orange-link:hover {
     color: #74a931;
 }
 
@@ -17,6 +17,10 @@ i.fa.fa-heart {
 
 i.fa.fa-paw {
    color: #442424;
+}
+
+.bg-brown {
+    background-color:#442424;
 }
 
 i.fa.fa-search {
@@ -36,10 +40,6 @@ i.fa.fa-envelope {
 
 .orange-link {
     color: #F0940C;
-}
-
-.orange-link:hover {
-    color: #74a931;  
 }
 
 .btn-green {
@@ -93,6 +93,10 @@ header.jumbotron {
     background: url("/img/path.svg") no-repeat center center;  
 }
 
+.services-jumbotron {
+    background: url("/img/pet-services.jpg") no-repeat center center;  
+}
+
 .jumbotron, .reviews-container, .blog  {
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -104,15 +108,21 @@ header.jumbotron {
     background: url("/img/path3.svg") no-repeat center center; 
 }
 
-.blog {
+.gray-section {
     background: url("/img/path2.svg") no-repeat center center; 
 }
 
 .row-content {
-    padding: 50px 0px;
+    padding: 80px 0px;
     min-height: 200px;
 }
 
 footer {
     background-color: #f5f5f5;
 }
+
+.intro-services .card {
+border: none;
+}
+
+
