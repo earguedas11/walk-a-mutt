@@ -19,10 +19,6 @@ i.fa.fa-paw {
    color: #442424;
 }
 
-.bg-brown {
-    background-color:#442424;
-}
-
 i.fa.fa-search {
     color: #F0940C;
     font-size: 18px;
@@ -112,6 +108,11 @@ header.jumbotron {
     background: url("/img/path2.svg") no-repeat center center; 
 }
 
+.brown-section {
+    background: url("/img/path4.svg") no-repeat center left; 
+    background-color:#442424;
+}
+
 .row-content {
     padding: 80px 0px;
     min-height: 200px;
@@ -124,5 +125,3 @@ footer {
 .intro-services .card {
 border: none;
 }
-
-
