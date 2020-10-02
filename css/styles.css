@@ -34,6 +34,10 @@ i.fa.fa-envelope {
     font-size: 1.7rem;
 }
 
+a.nav-link {
+    color: rgba(0,0,0,.8);
+}
+
 .orange-link {
     color: #F0940C;
 }
@@ -93,6 +97,10 @@ header.jumbotron {
     background: url("/img/pet-services.jpg") no-repeat center center;  
 }
 
+.help-jumbotron {
+    background: url("/img/turtle.png") no-repeat center top;
+}
+
 .become-jumbotron {
     background: url("/img/become-sitter-1.jpg") no-repeat center center;  
 }
@@ -109,7 +117,7 @@ header.jumbotron {
 }
 
 .gray-section {
-    background: url("/img/path2.svg") no-repeat center left; 
+    background: url("/img/path2.svg") no-repeat center center; 
 }
 
 .brown-section {
@@ -130,88 +138,9 @@ footer {
 border: none;
 }
 
-// Iconlist
-
-.iconList {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-        --color: var(--primary-1);
-        margin: 0 0 20px 0;
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        padding: 12px;
-        &:last-child {
-            margin-bottom: 0;
-        }
-        a {
-            display: flex;
-            align-items: center;
-            position: relative;
-            text-decoration: none;
-            .icon {
-                width: 44px;
-                height: 44px;
-                position: relative;
-                margin-right: 12px;
-                &:before {
-                    content: '';
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    position: absolute;
-                    border-radius: 50%;
-                    display: block;
-                    background: var(--color);
-                    opacity: .1;
-                }
-                svg {
-                    display: block;
-                    position: absolute;
-                    left: 50%;
-                    top: 50%;
-                    width: 20px;
-                    height: 20px;
-                    fill: var(--color);
-                    transform: translate(-50%, -50%);
-                }
-            }
-            .text {
-                color: var(--text-color-headline);
-                font-weight: 600;
-                font-size: 14px;
-                small {
-                    display: block;
-                    font-size: 12px;
-                    font-weight: 500;
-                    opacity: .75;
-                    color: var(--text-color);
-                }
-            }
-            & > svg {
-                position: absolute;
-                display: block;
-                right: 0;
-                top: 50%;
-                transform: translateY(-50%);
-                transition: transform .3s ease;
-                fill: var(--border-hover);
-            }
-            &:hover {
-                & > svg {
-                    transform: translateY(-50%) translateX(2px);
-                }
-            }
-        }
-    }
-}
-
-
 
 @media only screen and (max-width: 768px) {
-    .reviews-container, .gray-section {
+    .reviews-container, .gray-section, .jumbotron   {
       background: none;
     }
   }
